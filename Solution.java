@@ -6,7 +6,7 @@ class Solution {
         int pointsFrontSide = 0;
         int pointsBacktSide = 0;
 
-        // alternatively: Arrays.stream(cardPoints, 0,numberOfCardsToTake).sum();
+        // alternatively: Arrays.stream(cardPoints, 0, numberOfCardsToTake).sum();
         for (int i = 0; i < numberOfCardsToTake; ++i) {
             pointsFrontSide += cardPoints[i];
         }
